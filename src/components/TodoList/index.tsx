@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { TodoListProps, ListItem } from './interfaces';
 
 const TodoList = (props: TodoListProps) => {
