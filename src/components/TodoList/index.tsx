@@ -1,4 +1,6 @@
-import { ListItem } from "../models/ListItem";
+import { ListItem } from "../../models/ListItem";
+
+import './TodoList.css';
 
 interface TodoListProps {
   items: ListItem[];
