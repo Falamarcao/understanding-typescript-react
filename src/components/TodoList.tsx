@@ -1,4 +1,8 @@
-import { TodoListProps, ListItem } from './interfaces';
+import { ListItem } from "../models/ListItem";
+
+interface TodoListProps {
+  items: ListItem[];
+}
 
 const TodoList = (props: TodoListProps) => {
   return (
